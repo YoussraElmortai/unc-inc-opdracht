@@ -5,6 +5,11 @@ header{
     justify-content: space-between;
     margin: 1rem;
 }
+
+header a{
+    text-decoration: none;
+    color: black;
+}
 h1{
     font-family: var(--titles);
 }
@@ -32,7 +37,7 @@ button{
     z-index: 2;
     border: 2px solid var(--text-color);
     border-radius: 4px;
-    height: 20%;
+    height: 8.4rem;
     background-color: white;
 }
 
@@ -63,12 +68,11 @@ button{
 
 /* home.js styling */
 
-.projects h2{
-    font-family: var(--titles);
-    margin-bottom: 1rem;
+main{
+    padding: 2rem;
 }
 
-.new-tickets h2{
+.projects h2{
     font-family: var(--titles);
     margin-bottom: 1rem;
 }
@@ -93,4 +97,21 @@ button{
     width: 10rem;
     background-color: white;
     border-radius: 6px;
+}
+
+.new-tickets{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 1rem;
+}
+
+.new-tickets h2 {
+    font-family: var(--titles);
+    margin-bottom: 1rem;
+}
+
+.new-tickets article{
+    background-color: lightgrey;
+    height: 3rem;
 }
