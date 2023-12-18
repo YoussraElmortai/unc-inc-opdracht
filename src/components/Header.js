@@ -30,13 +30,13 @@ const Header = () => {
           <div className="dropdown-menu" ref={dropdownRef}>
             <ul>
               <li>
-                <a href="/">Profile</a>
+                <a href="/Profile">Profile</a>
               </li>
               <li>
-                <a href="/About">Dashboard</a>
+                <a href="/Dashboard">Dashboard</a>
               </li>
               <li>
-                <a href="/">Settings</a>
+                <a href="/Settings">Settings</a>
               </li>
             </ul>
           </div>
