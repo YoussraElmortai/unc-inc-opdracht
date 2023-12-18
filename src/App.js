@@ -1,7 +1,9 @@
-// App component
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+// Componenten
 import Header from "./components/Header";
+// Pages
 import Home from "./pages/Home";
 import Dashboard from "./pages/Dashboard";
 
