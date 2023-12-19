@@ -3,7 +3,7 @@
 //For a deeper dive into my proces visit my [wiki](https://github.com/YoussraElmortai/unc-inc-opdracht/wiki)
 
 ## Working on project 🏃
-### starting
+### start
 During the initial stages of the project, I quickly sketched out an inspiration and hi-fi draft. I got the idea to create a sort of GitHub ticket website where users should be able to log in and go to their dashboard to see all their tickets or open projects, just like you can on GitHub. Following that, I immediately delved into VS Code.
 Next, I researched how to implement yarn and the React Router in React, which I eventually figured out and applied. I then documented this in my wiki.
 ### building
