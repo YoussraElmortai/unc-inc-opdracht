@@ -4,7 +4,7 @@
 
 ## starting the project 🏃
 During the initial stages of the project, I quickly sketched out an inspiration and hi-fi draft. I got the idea to create a sort of GitHub ticket website where users should be able to log in and go to their dashboard to see all their tickets or open projects, just like you can on GitHub. Following that, I immediately delved into VS Code.
-Next, I researched how to implement the React Router in React, which I eventually figured out and applied. I then documented this in my wiki.
+Next, I researched how to implement yarn and the React Router in React, which I eventually figured out and applied. I then documented this in my wiki.
 
 Afterward, I started building pages and components. I struggled a bit with the header component because I made a few errors with the BrowserRouter, but eventually, I understood what was going wrong. I eventually fixed it and got it to work.
 
