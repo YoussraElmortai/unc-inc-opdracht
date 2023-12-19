@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+// pages
 import Home from "../pages/Home";
 
 const Loginform = () => {
@@ -20,10 +21,11 @@ const Loginform = () => {
   return (
     <>
       <main className="loginform">
-        <h2>Welkom</h2>
+        <h2>Login to uncinc</h2>
         <form
           onSubmit={(e) => {
             e.preventDefault();
+            console.log("Event object:", e);
             handleLogin();
           }}
         >

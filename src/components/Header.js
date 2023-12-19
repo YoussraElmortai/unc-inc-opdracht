@@ -9,8 +9,8 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const handleClickOutside = (event) => {
-    if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+  const handleClickOutside = (e) => {
+    if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
       setIsMenuOpen(false);
     }
   };
@@ -31,15 +31,15 @@ const Header = () => {
         {isMenuOpen && (
           <div className="dropdown-menu" ref={dropdownRef}>
             <ul>
-              <li>
-                <NavLink to="/home">Home</NavLink>
-              </li>
-              <li>
-                <NavLink to="/dashboard">Dashboard</NavLink>
-              </li>
-              <li>
-                <NavLink to="/login">Login</NavLink>
-              </li>
+              <NavLink to="/home">
+                <li>Home</li>
+              </NavLink>
+              <NavLink to="/dashboard">
+                <li>Dashboard</li>
+              </NavLink>
+              <NavLink to="/login">
+                <li>Login</li>
+              </NavLink>
             </ul>
           </div>
         )}

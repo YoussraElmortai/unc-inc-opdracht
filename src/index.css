@@ -37,7 +37,7 @@ body::-webkit-scrollbar-thumb {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   margin: 1rem;
+   margin: 2.5rem;
  }
 
  header a {
@@ -95,11 +95,9 @@ body::-webkit-scrollbar-thumb {
 
  .dropdown-menu ul li:hover {
    background-color: var(--text-color);
+   color: var(--background-color);
  }
 
- .dropdown-menu ul :hover a {
-   color: white;
- }
 
 
  /* home.js styling */
@@ -188,16 +186,16 @@ body::-webkit-scrollbar-thumb {
  /* Dashboard.js styling */
 
  .grid-container {
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   grid-template-rows: 0.5fr 1fr 1fr;
-   grid-template-areas:
-    "profile projects"
-    "content aside"
-    "footer aside";
+  display: grid;
+    grid-template-columns: 10rem 1fr;
+    grid-template-rows: 0.7fr 1fr 1fr;
+    grid-template-areas:
+      "profile projects"
+      "content aside"
+      "footer aside";
     gap: 0.5rem;
     height: 100vh;
- }
+  }
 
  .grid-container div{
   background-color: var(--accent-color);
