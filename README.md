@@ -7,4 +7,4 @@
 ## product 🎩
 
 
-## 
+## what i learned 👀
