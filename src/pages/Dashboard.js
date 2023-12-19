@@ -6,13 +6,13 @@ const Dashboard = () => {
     <>
       <main>
         <section className="grid-container">
-          <div>
-            <img src={profilePicture} alt="youssra presenting on laptop"></img>
+          <div className="profile">
+            {/* <img src={profilePicture} alt="youssra presenting on laptop"></img> */}
           </div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div className="project"></div>
+          <div className="content"></div>
+          <div className="aside"></div>
+          <div className="footer"></div>
         </section>
       </main>
     </>
