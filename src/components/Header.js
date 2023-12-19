@@ -23,7 +23,7 @@ const Header = () => {
   }, []);
   return (
     <header>
-      <NavLink to="/Home">
+      <NavLink to="/home">
         <h1>UNC INC</h1>
       </NavLink>
       <section>
@@ -32,16 +32,13 @@ const Header = () => {
           <div className="dropdown-menu" ref={dropdownRef}>
             <ul>
               <li>
-                <NavLink to="/Home">Home</NavLink>
+                <NavLink to="/home">Home</NavLink>
               </li>
               <li>
-                <NavLink to="/Profile">Profile</NavLink>
+                <NavLink to="/dashboard">Dashboard</NavLink>
               </li>
               <li>
-                <NavLink to="/Dashboard">Dashboard</NavLink>
-              </li>
-              <li>
-                <NavLink to="/Settings">Settings</NavLink>
+                <NavLink to="/settings">Settings</NavLink>
               </li>
             </ul>
           </div>
