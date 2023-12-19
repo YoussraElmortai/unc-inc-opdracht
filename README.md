@@ -8,7 +8,7 @@ Next, I researched how to implement the React Router in React, which I eventuall
 
 Afterward, I started building pages and components. I struggled a bit with the header component because I made a few errors with the BrowserRouter, but eventually, I understood what was going wrong. I eventually fixed it and got it to work.
 
-Finally, I attempted to create the login function.
+Finally, I attempted to create the login function. 
 
 ## final product 🎩
 
@@ -18,6 +18,10 @@ The different pages are:
 - /dashboard
 - /home
 - /
+
+Unfortunately, I couldn't manage to create pages that are only accessible upon logging in. This was new to me, but it was interesting to try it out.
+
+
 
 
 
