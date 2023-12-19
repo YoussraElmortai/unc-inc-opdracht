@@ -202,26 +202,30 @@ body::-webkit-scrollbar-thumb {
   border-radius: 6px;
  }
 
- .profile{
+.grid-container div {
+  background-color: var(--accent-color);
+  border-radius: 6px;
+}
+
+.grid-container div:nth-child(1) {
   grid-area: profile;
- }
+}
 
- .project{
+.grid-container div:nth-child(2) {
   grid-area: projects;
- }
+}
 
- .content{
+.grid-container div:nth-child(3) {
   grid-area: content;
- }
+}
 
- .aside{
+.grid-container div:nth-child(4) {
   grid-area: aside;
- }
+}
 
- .footer{
+.grid-container div:nth-child(5) {
   grid-area: footer;
- }
- 
+}
 
  /* loginform.js styling */
 
