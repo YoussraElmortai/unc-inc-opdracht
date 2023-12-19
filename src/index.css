@@ -227,6 +227,33 @@ body::-webkit-scrollbar-thumb {
 
  /* loginform.js styling */
 
+ .loginform{
+  border: 2px solid var(--accent-color);
+  border-radius: 6px;
+  width: 20rem;
+ }
 
+ .loginform h2{
+  font-family: var(--titles);
+ }
 
- /* login.js styling */
+ .loginform form{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  gap: 1rem;
+  align-items: flex-start;
+ }
+
+ .loginform label{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+ }
+
+ .loginform button{
+  font-size: 18px;
+  background-color: var(--accent-color);
+  padding: 0.3rem;
+  border-radius: 6px;
+ }
