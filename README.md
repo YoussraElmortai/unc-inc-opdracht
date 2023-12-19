@@ -1,6 +1,6 @@
 # UNC INC assesment 🎤
 //A README explaining my thoughts and choices made during the assessment <br>
-//For a deeper dive into my procces visit my wiki
+//For a deeper dive into my proces visit my wiki
 
 ## starting the project 🏃
 During the initial stages of the project, I quickly sketched out an inspiration and high-fidelity draft. Following that, I immediately delved into VS Code.
