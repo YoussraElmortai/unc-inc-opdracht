@@ -19,8 +19,6 @@ The different pages are:
 - /home
 - /
   
-Unfortunately, I couldn't manage to create pages that are only accessible upon logging in. This was new to me, but it was interesting to try out.
-I did use states to render the home page if you correctly fill in the form.
 
 ## tests 🚧
 
